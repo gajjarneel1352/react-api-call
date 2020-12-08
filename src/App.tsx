@@ -51,6 +51,8 @@ function App() {
     };
   }, [response, value]);
 
+  console.log(response)
+
   const onInputChange = (e: any) => {
     setValue(e.target.value);
   };
